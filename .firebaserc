@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prueba1-d98d2": {
+      "hosting": {
+        "prueba1": [
+          "prueba1-d98d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prueba1-d98d2"
+  }
+}

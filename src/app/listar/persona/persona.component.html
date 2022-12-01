@@ -1,0 +1,29 @@
+<h1>{{title}}</h1>
+<p>LISTA DE PERSONA</p>
+
+<br>
+
+ <table>
+    <tr>
+        <th>cedula</th>
+        <th>Nombre</th>
+        <th>Fecha Nacimiento</th>
+        <th>Cargas Familiares</th>
+     
+
+    </tr>
+    <tr *ngFor="let p of persona | async">
+        <td>{{p.cedula}}</td>
+        <td>{{p.nombre}}</td>
+        <td>{{p.fechaNacimiento}}</td>
+        <td>{{p.numeroCargar}}</td>
+        <br>
+       
+        
+       
+        
+       
+    </tr>
+ </table>
+<br>
+
